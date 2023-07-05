@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+main {
+  background-color: rgb(200, 200, 200);
+}
+h2 {
+  font-size: 36px;
+}
+a {
+  display: inline-block;
+}
+p {
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+div {
+  padding: 20px 10px;
+}
+.header {
+  background-color: rgb(150, 150, 150);
+  text-align: center;
+}
+.menu {
+  background-color: rgb(200, 200, 200);
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+.menu-point {
+  width: 120px;
+  padding: 20px 5px;
+  margin: 0 -2px 0 -2px;
+}
+.menu-point:hover {
+  background-color: rgb(255, 231, 47);
+}
+.name {
+  font-size: 500%;
+  padding: 0 0 10px 0;
+  margin: 20px 0 0 0;
+  position: relative; top: 20%;
+  text-align: center;
+}
+.avatar {
+  width: 45vh;
+  border-radius: 200px;
+}
+.contact {
+  padding: 10px;
+}
+.cont-point {
+  margin: 5px;
+  word-spacing: 3px;
+}
+.logo {
+  width: 15%;
+}
+.footer {
+  background-color: rgb(255, 226, 159);
+  padding: 20px;
+
+
+}
+.gh,
+.logo,
+.year,
+.course {
+  display: inline-block;
+  width: 300px;
+  text-align: end;
+}
+.gh,
+.course {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.gh:hover,
+.course:hover {
+  background-color: rgb(177, 244, 222);
+}
