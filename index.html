@@ -5,8 +5,115 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rsschool-cv-html</title>
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-  
+  <header class="header" id="header">
+    <nav class="menu">
+      <a class="menu-point" href="#header">Main info</a>
+      <a class="menu-point" href="#contact">Contacts</a>
+      <a class="menu-point" href="#info">About me</a>
+      <a class="menu-point" href="#skill">My Skills</a>
+      <a class="menu-point" href="#code">My code</a>
+      <a class="menu-point" href="#exp">Work experience</a>
+      <a class="menu-point" href="#education">My education</a>
+      <a class="menu-point" href="#english-level">My english level</a>
+      <a class="menu-point" href="#footer">Footer</a>
+    </nav>
+    <img class='avatar' src="./images/Avatar.png" alt="Avatar">
+    <div class="name">
+      <h1>Hi! I'm Sergei!</h1>
+    </div>
+  </header>
+  <main>
+    <div class="contact-block" id="contact">
+      <div class="h2">
+        <h2>Contacts:</h2>
+      </div>
+      <div class="contact">
+        <ul>
+          <li class="cont-point github"><strong>Github:</strong> github.com/baev-sergey</li>
+          <li class="cont-point discord"><strong>Discord:</strong> Baev Sergei (@baev_sergey)</li>
+          <li class="cont-point email"><strong>Email:</strong> baev.sergey95@gmail.com</li>
+          <li class="cont-point tel"><strong>Whatsapp:</strong> +7 (913) 489-46-42</li>
+          <li class="cont-point telegram"><strong>Telegram:</strong> t.me/Leefray</li>
+        </ul>
+      </div>
+      </div>
+    <div class="info" id="info">
+      <div class="h2">
+        <h2>Information about me:</h2>
+      </div>
+      <p>
+        There is currently no experience in this area.
+        I am currently in the development phase of front-end development.
+        <br>
+        My strengths: communication skills, quick learner, curiosity.
+        <br>
+        <br>
+        I am interested in front-end development,
+        <br>
+        I study at the RSSchool,
+        I also look for information on the topic on YouTube and other sources.
+      </p>
+    </div>
+    <div class="skill" id="skill">
+      <div class="h2">
+        <h2>Skills:</h2>
+      </div>
+      <p>
+        At the moment I have no programming skills, I am learning Javascript, HTML and CSS.
+      </p>
+    </div>
+    <div class="code-block" id="code">
+      <div class="h2">
+        <h2>Code example:</h2>
+      </div>
+      <p>
+        Only the task that is given when registering on CodeWars.
+      </p>
+      <code class="code">
+        function multiply(a, b){ return a * b; }
+      </code>
+    </div>
+    <div class="exp" id="exp">
+      <div class="h2">
+        <h2>Work experience:</h2>
+      </div>
+      <p>
+        No experience in this area.
+      </p>
+      <a class="my-exp-img" href="https://baev-sergey.github.io/rsschool-cv/cv">My project is this CV</a>
+    </div>
+      <div class="education" id="education">
+        <div class="h2">
+          <h2>Education:</h2>
+        </div>
+      <p>
+        Novosibirsk State University of Architecture and Civil Engineering, Specialty - Management.
+      </p>
+    </div>
+    <div class="english-level" id="english-level">
+      <div class="h2">
+        <h2>English level:</h2>
+      </div>
+      <p>
+        There is no confirmed level of English. <br>
+        At the moment, I study individually with a teacher, 
+        mainly the emphasis is on speaking and reading. <br>
+        Approximate level A2-B1.
+      </p>
+    </div>
+  </main>
+  <footer class="footer" id="footer">
+    <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool-logo">
+    <a class="gh" href="https://github.com/Baev-sergey">My Github</a>
+    <a class="course" href="https://rs.school/js/">RSSchool Course</a>
+    <p class="year">2023</p>
+  </footer>
 </body>
 </html>
