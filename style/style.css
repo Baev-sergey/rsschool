@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+main {
+  background-color: rgb(200, 200, 200);
+}
+h2 {
+  font-size: 36px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+a {
+  display: inline-block;
+}
+p {
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+div {
+  padding: 20px 10px;
+  position: relative;
+}
+.header {
+  background-color: rgb(150, 150, 150);
+  text-align: center;
+}
+.menu {
+  background-color: rgb(200, 200, 200);
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+.menu-point {
+  width: 130px;
+  height: 65px;
+  padding: 20px 5px;
+  transition: 0.7s ease;
+}
+.menu-point:hover {
+  background-color: rgb(255, 231, 47);
+  transform: scale(1.05);
+}
+.name {
+  font-size: 500%;
+  padding: 0 0 10px 0;
+  margin: 20px 0 0 0;
+  position: relative; top: 20%;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+.avatar {
+  width: 45vh;
+  height: 45vh;
+  border-radius: 50%;
+  padding: 20px;
+  transition: 0.5s ease;
+}
+.avatar:hover {
+  border-radius: 40px;
+}
+.contact {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: left;
+  transition: 0.5s ease;
+}
+.contact:hover{
+  transform: scale(1.35);
+}
+.contact-block {
+  width: 44vh;
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info,
+.education,
+.english-level,
+.skill{
+  width: 60vh;
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.h2{
+  text-align: center;
+}
+.my-exp-img {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(190, 190, 190);
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s ease;
+}
+.my-exp-img:hover {
+  background-color: rgb(255, 231, 47);
+  border-radius: 40px;
+  transform: scale(1.1);
+}
+.cont-point {
+  margin: 5px;
+  word-spacing: 3px;
+}
+.code {
+  background-color: rgb(190, 190, 190);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+.code:hover {
+  transform: scale(1.5);
+}
+.code-block {
+  line-height: 40px;
+}
+.logo {
+  width: 15%;
+}
+.footer {
+  background-color: rgb(255, 231, 47);
+  padding: 20px;
+}
+.gh,
+.logo,
+.year,
+.course {
+  display: inline-block;
+  width: 300px;
+  text-align: end;
+}
+.gh,
+.course {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+.gh:hover,
+.course:hover {
+  background-color: rgb(190, 190, 190);
+}
